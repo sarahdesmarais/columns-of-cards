@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
+  margin: 0;
 }
 
 .cards {
@@ -19,21 +20,31 @@ body {
 
 .cards div {
   width: 25%;
-  padding: .75rem;
+  padding: .75em;
   display: flex;
   flex-direction: column;
   border-left: 1px solid #333;
+  font-size: .875rem;
 }
 
 img {
+  width: 100%;
+  display: block;
+}
+
+.cards img {
   width: 100px;
-  display: flex;
   margin: 0 auto;
 }
 
 h2 {
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 0;
 }
 
 .quest {
